@@ -1,0 +1,147 @@
+{
+  "samples": 3227,
+  "sessions": 19,
+  "samples_by_date": {
+    "15-10-2026": 1699,
+    "16-10-2026": 1528
+  },
+  "missing_values": 0,
+  "flex2_invalid_samples": 395,
+  "flex2_invalid_pct": 12.2,
+  "flex2_invalid_by_session": {
+    "S4": 167,
+    "S5": 167,
+    "S6": 30,
+    "S7": 31
+  },
+  "flex1_invalid_samples": 0,
+  "startup_burst_packets": {
+    "min": 45,
+    "max": 46,
+    "mean": 45.6
+  },
+  "steady_interval_ms": {
+    "median": 40.0,
+    "mean": 40.1,
+    "sd": 1.5
+  },
+  "replay_windows": {
+    "total": 152,
+    "normal": 131,
+    "warning": 16,
+    "critical": 5
+  },
+  "replay_by_session": {
+    "S1": {
+      "critical": 0,
+      "normal": 0,
+      "warning": 8
+    },
+    "S10": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S11": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S12": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S13": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S14": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S15": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S16": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S17": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S18": {
+      "critical": 4,
+      "normal": 3,
+      "warning": 1
+    },
+    "S19": {
+      "critical": 0,
+      "normal": 6,
+      "warning": 2
+    },
+    "S2": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S3": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S4": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S5": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S6": {
+      "critical": 0,
+      "normal": 4,
+      "warning": 4
+    },
+    "S7": {
+      "critical": 1,
+      "normal": 6,
+      "warning": 1
+    },
+    "S8": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    },
+    "S9": {
+      "critical": 0,
+      "normal": 8,
+      "warning": 0
+    }
+  },
+  "flex_response_S2_to_S19": {
+    "flex1": [
+      2488.6,
+      2361.3
+    ],
+    "flex2": [
+      2006.1,
+      2059.1
+    ]
+  },
+  "threshold_sensitivity_pct_of_windows": {
+    "tilt>=8deg": 12.5,
+    "tilt>=16deg": 2.6,
+    "flex>=80adc": 1.3,
+    "flex>=120adc": 0.7
+  }
+}

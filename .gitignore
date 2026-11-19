@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Large synthetic training table: regenerate with `python generate_dataset.py`
+spine_grid_posture_synthetic.csv
+analysis/results/*.png
